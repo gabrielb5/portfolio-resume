@@ -35,7 +35,7 @@ export default function About({}: Props) {
             </h4> */}
             <div className=' mt-10 xl:mt-1'>
                 <p className='text-sm' >
-                Hi, I'm Gabriel! <br></br>Expirienced software developer with knowledge in techonologies such as React, Javascript, Ruby on Rails, Firebase, SQL and others with a academic background in Accounting and Business Administration. I pride myself in being a good team player and I've been an athlete all my life. Playing sports has helped me to understand how to collaborate and work together towards a common goal, which is something I've already utilized in my starting coding carreer.  I look forward to keep creating projects and learing all that I can!
+                Hi, im Gabriel! <br></br>Expirienced software developer with knowledge in techonologies such as React, Javascript, Ruby on Rails, Firebase, SQL and others with a academic background in Accounting and Business Administration. I pride myself in being a good team player and Ive been an athlete all my life. Playing sports has helped me to understand how to collaborate and work together towards a common goal, which is something Ive already utilized in my starting coding carreer.  I look forward to keep creating projects and learing all that I can!
                 </p>
             </div>
         </div>
