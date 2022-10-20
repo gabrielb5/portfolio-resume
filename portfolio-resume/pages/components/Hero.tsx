@@ -8,7 +8,7 @@ type Props = {};
 
 
 function Hero({} : Props) {
-  const role = "Software Engineer"
+  const role = "Software Developer"
   const [text, count] = useTypewriter({
     words: [
       "Hi, my name is Gabriel Burgos",

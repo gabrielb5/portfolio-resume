@@ -8,7 +8,7 @@ export default function Contact({}: Props) {
   return (
     <div className='flex flex-col h-screen space-y-10'>
         <h3 className='top-24 uppercase tracking-[20px] text-gray-500 text-xl text-center mt-[100px]'> Contact </h3>
-        <h4 className='decoration-[#F7AB0A]/50 underline text-center text-xl xl:text-4xl'> Let's talk ! </h4>
+        <h4 className='decoration-[#F7AB0A]/50 underline text-center text-xl xl:text-4xl'> Let&#39;s talk ! </h4>
         <div className='space-y-10'>
             <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='h-7 w-7 animate-bounce' />
