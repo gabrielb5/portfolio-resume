@@ -8,13 +8,13 @@ type Props = {};
 
 
 function Hero({} : Props) {
-  const role = "Software Developer"
+  const role = "Full Stack Developer"
   const [text, count] = useTypewriter({
     words: [
       "Hi, my name is Gabriel Burgos",
       "Hola, mi nombre es Gabriel Burgos",
       "Loves-Basketball-🏀.jsx",
-      "<ButNowLovesCodeToo/>"
+      "<ILoveCodingToo/>"
     ],
     loop: true,
     delaySpeed: 1000
