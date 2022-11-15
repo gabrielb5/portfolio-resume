@@ -27,7 +27,7 @@ function Hero({} : Props) {
       <Image  width={150}
           className='rounded-full relative mx-auto object-cover'
           height={150}
-          src={Golden} 
+          src="https://images.barrons.com/im-637418?width=639&height=426" 
           alt="Profile" />
     
         <h2 className='text-[10px] uppercase text-gray-500 pb-2 tracking-[15px]'> {role} </h2>

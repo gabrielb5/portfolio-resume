@@ -56,11 +56,13 @@ function Header() {
                 <a href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume" className='uppercase hidden md:inline-flex text-sm text-gray-400' >
                     Resume
                 </a>
-                </Link>
                 <SocialIcon  
                     network='email'
                     fgColor='gray'
                     bgColor='transparent' />
+             
+                </Link>
+   
              
             </motion.div>
         </header>
