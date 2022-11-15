@@ -31,7 +31,7 @@ export default function ProjectsList({}: Props) {
             {projects.map((project, i) => (
                 <div key={project.title} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
                     {/* </div> */}
-                    <Image src={project.photo} width="345" height="180" />
+                    <Image src={project.photo} width="345" height="180" alt="Project" />
                     <div>
                         <h4> <span className='underline font-semibold skew-y-6s'> Case Study {i + 1} of {projects.length}:</span> {project.title} </h4>
                     </div>
