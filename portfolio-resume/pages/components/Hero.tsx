@@ -9,12 +9,13 @@ type Props = {};
 
 
 function Hero({} : Props) {
-  const role = "Software Engineer"
+  const role = "Full Stack Developer"
   const [text, count] = useTypewriter({
     words: [
       "Hi, my name is Gabriel Burgos",
+      "Hola, mi nombre es Gabriel Burgos",
       "Loves-Basketball-🏀.jsx",
-      "<ButNowLovesCodeToo/>"
+      "<ILoveCodingToo/>"
     ],
     loop: true,
     delaySpeed: 1000
@@ -46,6 +47,9 @@ function Hero({} : Props) {
           </Link>
           <Link href='#projects'>
            <button className='heroButton'> Projects </button>
+          </Link>
+          <Link href='#capstone'>
+           <button className='heroButton'> Capstone </button>
           </Link>
         </div>
      </div>
