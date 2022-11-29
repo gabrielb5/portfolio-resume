@@ -3,6 +3,7 @@ import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from "./BackgroundCircles"
 import Image from 'next/image'
 import Link from 'next/link'
+import Golden from './golden.jpg'
 
 type Props = {};
 
@@ -26,7 +27,8 @@ function Hero({} : Props) {
       <Image  width={150}
           className='rounded-full relative mx-auto object-cover'
           height={150}
-          src='https://media-exp1.licdn.com/dms/image/C4E03AQENmSp952_JEQ/profile-displayphoto-shrink_400_400/0/1661457257888?e=1671667200&v=beta&t=ekmY7V3IwOu_51Reu6f8NwnzmHoUtICYr6d28r8EZD8' />
+          src={Golden}
+          alt="Profile" />
     
         <h2 className='text-[10px] uppercase text-gray-500 pb-2 tracking-[15px]'> {role} </h2>
         <h1 className='text-3xl lg:text-5xl font-semibold scroll-px-10'>
