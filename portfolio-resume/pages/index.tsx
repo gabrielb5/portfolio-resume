@@ -10,7 +10,7 @@ import Contact from './components/Contact'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-[rgb(145,178,199)] text-black h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-[rgb(11,53,79)] text-black h-screen snap-y snap-mandatory overflow-scroll z-0'>
       <Head>
         <title> Gabriel&#39;s Portfolio </title>
       </Head>
