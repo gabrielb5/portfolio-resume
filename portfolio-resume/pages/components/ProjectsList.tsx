@@ -3,7 +3,8 @@ import Frisbee from "./Frisbee.png"
 import Blackjack from "./Blackjack.png"
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Minecraft from "./minecraft.png"
+import News from "./Denboiz.png"
 type Props = {}
 
 export default function ProjectsList({}: Props) {
@@ -18,6 +19,18 @@ export default function ProjectsList({}: Props) {
         description: "Built a prototype blackjack game app that allows users to authenticate and compete in a leaderboard with other players.. Technologies used: React, Firebase ( Authentication), Sinatra (Ruby) and Bootstrap",
         photo: Blackjack,
         link: "https://phase-3-project-blackjack.netlify.app/"
+    },
+    {
+        title: "Minecraft Clone",
+        description: "Built a Minecraft clone using Javascript to crate a realistic feel of the game. Technologies used: Javascript, ThreeJS, React",
+        photo: Minecraft,
+        link: "https://www.loom.com/share/16a81c6a01c04fe895c442f809dfce46"
+    },
+    {
+        title: "Denver News",
+        description: "Built a newspaper website using a realtime API to get information into the webpage. Techologies user: Ruby on Rails, React Native, Tailwind",
+        photo: News,
+        link: "https://www.loom.com/share/08ea32f10a6c467180455e6774746fc2"
     }
 ]
 

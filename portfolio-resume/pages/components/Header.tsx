@@ -52,15 +52,16 @@ function Header() {
                 opacity: 1,
                 scale: 1
             }}>
-                <Link href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume">
-                <a href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume" className='uppercase hidden md:inline-flex text-sm text-gray-400' >
-                    Resume
-                </a>
-                </Link>
+                <Link href="https://pdfhost.io/v/YUD.ZdWIa_resume_10">
                 <SocialIcon  
                     network='email'
                     fgColor='gray'
                     bgColor='transparent' />
+             
+                </Link>
+                <a href="https://pdfhost.io/v/YUD.ZdWIa_resume_10" className='uppercase hidden md:inline-flex text-sm text-gray-400' >
+                    Resume
+                </a>
              
             </motion.div>
         </header>

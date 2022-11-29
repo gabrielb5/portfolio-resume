@@ -19,7 +19,7 @@ export default function Contact({}: Props) {
                 <p className='text-xl xl:text-3xl'> gabrielburgosmm@gmail.com </p>
             </div>
             <div className='flex items-center space-x-5 justify-center'>
-                <Link href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume">
+                <Link href="https://pdfhost.io/v/YUD.ZdWIa_resume_10">
                  <AcademicCapIcon className='h-7 w-7 animate-pulse'/>
                 </Link>
                 <p className='text-xl xl:text-3xl'> Resume </p>
