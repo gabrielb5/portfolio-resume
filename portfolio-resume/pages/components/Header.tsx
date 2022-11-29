@@ -8,6 +8,8 @@ import Link from 'next/link'
 function Header() {
   return (
 
+
+
         <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
             <motion.div 
             className='flex flex-row items-center'
@@ -52,28 +54,24 @@ function Header() {
                 opacity: 1,
                 scale: 1
             }}>
-<<<<<<< HEAD
-                <Link href="https://pdfhost.io/v/YUD.ZdWIa_resume_10">
-=======
-                <Link href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume">
+                {/* <Link href="https://pdfhost.io/v/YUD.ZdWIa_resume_10"> */}
+                {/* <Link href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume"> */}
                 <a href="https://pdfhost.io/v/7NjhvcGpw_Gabriel_Burgos_Resume" className='uppercase hidden md:inline-flex text-sm text-gray-400' >
                     Resume
                 </a>
              
              
-                </Link>
+        
 
->>>>>>> 212a5ef9801ceb66e2bdfe6ff546e09006268b3d
                 <SocialIcon  
                     network='email'
                     fgColor='gray'
                     bgColor='transparent' />
    
              
-                </Link>
-                <a href="https://pdfhost.io/v/YUD.ZdWIa_resume_10" className='uppercase hidden md:inline-flex text-sm text-gray-400' >
+                {/* <a href="https://pdfhost.io/v/YUD.ZdWIa_resume_10" className='uppercase hidden md:inline-flex text-sm text-gray-400' >
                     Resume
-                </a>
+                </a> */}
              
             </motion.div>
         </header>
